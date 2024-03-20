@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bungeein: ["Bungee Inline", "sans-serif"],
+        bungeesh: ["Bungee Shade", "sans-serif"],
+        cabin: ["Cabin", "sans-serif"],
+        allura: ["Allura", "cursive"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
